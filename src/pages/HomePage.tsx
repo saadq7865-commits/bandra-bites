@@ -48,11 +48,40 @@ export function HomePage() {
                 <span className="text-xs uppercase tracking-widest font-semibold text-[#E76F51]">
                   The Suburb's Culinary Compass
                 </span>
+                {/* Single Primary H1 for the entire Homepage */}
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-[#493548] leading-[1.12] text-balance">
-                  The Neighbourhood Table: Where Coastal Salt Meets Specialty Roasts
+                  Bandra West Café & Food Discovery Guide: Coastal Spots, Bakeries & Coffee
                 </h1>
-                <p className="text-lg text-[#493548]/85 leading-relaxed max-w-2xl font-light">
-                  A local, street-level editorial guide to the sleepy village lanes, breezy seaside promenade decks, and pocket-friendly coffee corners of Bandra West, Mumbai.
+
+                {/* Direct Q&A in Opening Paragraph */}
+                <p className="text-base sm:text-lg text-[#493548]/90 leading-relaxed max-w-2xl font-normal">
+                  <strong>What makes Bandra West Mumbai's premier café destination?</strong> Bandra West seamlessly blends sleepy East Indian heritage villages, breezy Arabian Sea promenades, and third-wave artisan coffee roasteries into one walkable culinary quarter. Whether you are searching for affordable cutting chai in Ranwar Village or sun-drenched outdoor sourdough brunches along Carter Road, this curated guide answers where to go, what to order, and how to avoid the crowds.
+                </p>
+
+                {/* Contextual Internal Links with Descriptive Anchor Text */}
+                <p className="text-sm text-[#493548]/80 leading-relaxed max-w-2xl font-light">
+                  Start by exploring our curated guides to{' '}
+                  <Link
+                    href="/budget-cafes-bandra-west"
+                    className="font-semibold text-[#E76F51] underline hover:text-[#d65f42]"
+                  >
+                    budget cafés in Bandra West with honest brews under ₹250
+                  </Link>
+                  , plan a seaside morning with our{' '}
+                  <Link
+                    href="/brunch-near-carter-road"
+                    className="font-semibold text-[#E76F51] underline hover:text-[#d65f42]"
+                  >
+                    coastal morning brunch spots near Carter Road guide
+                  </Link>
+                  , or discover sweet stops in our{' '}
+                  <Link
+                    href="/desserts-bandra-west"
+                    className="font-semibold text-[#E76F51] underline hover:text-[#d65f42]"
+                  >
+                    artisanal dessert parlours and bakeries in Bandra West
+                  </Link>
+                  .
                 </p>
               </div>
 
@@ -96,7 +125,7 @@ export function HomePage() {
               <div className="relative rounded-2xl overflow-hidden shadow-md border border-[#F6BD9B]/50 bg-stone-100 h-full min-h-[340px] lg:min-h-[420px]">
                 <img
                   src="/assets/images/hero_bandra_cafe_1791895097942.jpg"
-                  alt="Sunlit artisanal cafe in Bandra West with pour-over coffee carafe and fresh croissants overlooking tropical greenery"
+                  alt="Sunlit artisanal café interior in Bandra West Mumbai with timber tables, pour-over coffee carafe, fresh butter croissants, and lush green window views"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
                 />
@@ -123,7 +152,7 @@ export function HomePage() {
               Curated Collections
             </span>
             <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#493548] mt-1">
-              Find Your Rhythm in Bandra
+              Where Can You Find the Best Cafés in Bandra West?
             </h2>
             <p className="text-sm text-[#493548]/80 mt-1">
               Choose an experience tailored to your mood, budget, or preferred time of day.
@@ -172,7 +201,7 @@ export function HomePage() {
                 Comprehensive Publication
               </span>
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#493548] mt-1">
-                All 10 Editorial Guides
+                Which Bandra West Café Guides Should You Read First?
               </h2>
               <p className="text-sm text-[#493548]/80 mt-1 max-w-xl">
                 Read in-depth field notes covering budget bakes, coastal brunches, specialty coffee roasters, heritage Irani cafés, and dessert walks.
@@ -304,7 +333,7 @@ export function HomePage() {
               Frequently Asked Questions
             </span>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#493548]">
-              Planning Your Visit to Bandra West
+              Planning Your Visit: How Do You Navigate Bandra West Cafés?
             </h2>
             <p className="text-sm sm:text-base text-[#493548]/80 leading-relaxed">
               Clear, practical answers addressing the most common questions visitors ask before embarking on a café trail across Bandra West.
@@ -341,7 +370,7 @@ export function HomePage() {
                 Geographic Anatomy
               </span>
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#493548] mt-1">
-                The Four Café Enclaves of Bandra West
+                What Are the Four Essential Café Enclaves of Bandra West?
               </h2>
               <p className="text-sm sm:text-base text-[#493548]/80 mt-2 leading-relaxed">
                 Bandra is not a monolith; each quarter carries its own architectural texture, rhythm, and dining cadence.

@@ -15,11 +15,12 @@ function AppContent() {
   // Find article matching current route
   const currentArticle = ARTICLES.find((a) => a.route === currentPath);
 
-  // Synchronize document title and meta description independently per page
+  // Synchronize document title, meta tags, and structured data independently per page route
   useEffect(() => {
     if (typeof document !== 'undefined') {
       let title = HOMEPAGE_SEO.metaTitle;
       let description = HOMEPAGE_SEO.metaDescription;
+      let canonicalUrl = typeof window !== 'undefined' ? `${window.location.origin}${currentPath}` : currentPath;
 
       if (currentArticle) {
         title = currentArticle.seoBaseline.metaTitle;
@@ -29,17 +30,81 @@ function AppContent() {
         description = 'The requested guide could not be located in our Bandra West directory.';
       }
 
+      // Update document title
       document.title = title;
 
-      let metaDescTag = document.querySelector('meta[name="description"]');
-      if (metaDescTag) {
-        metaDescTag.setAttribute('content', description);
-      } else {
-        const newMeta = document.createElement('meta');
-        newMeta.name = 'description';
-        newMeta.content = description;
-        document.head.appendChild(newMeta);
+      // Helper to update or create meta tags
+      const setMetaTag = (attrName: string, attrVal: string, content: string) => {
+        let tag = document.querySelector(`meta[${attrName}="${attrVal}"]`);
+        if (!tag) {
+          tag = document.createElement('meta');
+          tag.setAttribute(attrName, attrVal);
+          document.head.appendChild(tag);
+        }
+        tag.setAttribute('content', content);
+      };
+
+      // Helper to update or create link tags
+      const setLinkTag = (rel: string, href: string) => {
+        let link = document.querySelector(`link[rel="${rel}"]`);
+        if (!link) {
+          link = document.createElement('link');
+          link.setAttribute('rel', rel);
+          document.head.appendChild(link);
+        }
+        link.setAttribute('href', href);
+      };
+
+      // Set standard meta description & canonical URL
+      setMetaTag('name', 'description', description);
+      setLinkTag('canonical', canonicalUrl);
+
+      // Set OpenGraph tags
+      setMetaTag('property', 'og:title', title);
+      setMetaTag('property', 'og:description', description);
+      setMetaTag('property', 'og:url', canonicalUrl);
+
+      // Set Twitter Card tags
+      setMetaTag('name', 'twitter:title', title);
+      setMetaTag('name', 'twitter:description', description);
+
+      // Set Schema.org JSON-LD structured data in the HTML head
+      let schemaScript = document.getElementById('seo-jsonld');
+      if (!schemaScript) {
+        schemaScript = document.createElement('script');
+        schemaScript.id = 'seo-jsonld';
+        schemaScript.setAttribute('type', 'application/ld+json');
+        document.head.appendChild(schemaScript);
       }
+
+      const structuredData = currentArticle
+        ? {
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            headline: currentArticle.headline,
+            description: description,
+            image: typeof window !== 'undefined' ? `${window.location.origin}${currentArticle.heroImage}` : currentArticle.heroImage,
+            author: {
+              '@type': 'Organization',
+              name: 'Bandra Bites Editorial Desk'
+            },
+            publisher: {
+              '@type': 'Organization',
+              name: 'Bandra Bites'
+            },
+            mainEntityOfPage: {
+              '@type': 'WebPage',
+              '@id': canonicalUrl
+            }
+          }
+        : {
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'Bandra Bites',
+            url: canonicalUrl,
+            description: description
+          };
+      schemaScript.textContent = JSON.stringify(structuredData);
     }
   }, [currentPath, currentArticle]);
 

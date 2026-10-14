@@ -15,9 +15,9 @@ export const HOMEPAGE_QA: QuestionAnswer[] = [
 
 export const HOMEPAGE_SEO: SEOMetadata = {
   primaryKeyword: 'Bandra West café guide',
-  secondaryKeywords: ['Bandra food discovery', 'cafés in Bandra Mumbai'],
-  metaTitle: 'Bandra Bites — Café & Food Discovery Guide | Bandra West, Mumbai',
-  metaDescription: 'An independent street-level food and café discovery guide for Bandra West, Mumbai. Explore 10 curated articles covering budget cafés, coastal brunch, specialty coffee, and desserts.'
+  secondaryKeywords: ['best cafes in Bandra', 'Bandra food discovery'],
+  metaTitle: 'Bandra Bites: Best Cafés & Food in Bandra West Mumbai',
+  metaDescription: 'Discover the best cafés, coastal brunch spots, and hidden bakeries in Bandra West, Mumbai. Explore 10 curated neighbourhood guides with local prices and tips.'
 };
 
 export const ARTICLES: Article[] = [
@@ -26,13 +26,13 @@ export const ARTICLES: Article[] = [
     slug: 'budget-cafes-bandra-west',
     route: '/budget-cafes-bandra-west',
     title: 'Budget Cafés in Bandra West',
-    headline: 'Finding Affordable Cafés, Honest Brews & Warm Buns in Bandra West',
-    deck: 'How to bypass high minimum spends and enjoy steaming cardamom chai, freshly toasted bun maska, and quiet college-adjacent coffee corners without stretching your wallet.',
+    headline: 'Budget Cafés in Bandra West: Finding Affordable Coffee, Honest Brews & Warm Buns',
+    deck: 'Can you find great café food in Bandra West on a tight budget? Yes: you can easily enjoy hearty food and quality coffee for under ₹250 per person by heading to heritage village corners like Ranwar, student counters near St. Andrew’s, and legendary Hill Road bakeries. This pocket-friendly guide reveals how to bypass high minimum spends and enjoy steaming cardamom chai, toasted bun maska, and savoury puffs without paying discretionary service charges.',
     category: 'Pocket-Friendly Guides',
     readTime: '7 min read',
     publishDate: 'Autumn 2026',
     heroImage: '/assets/images/budget_cafe_chai_1791895098769.jpg',
-    imageAlt: 'Steaming cutting chai in traditional flared glasses with buttery toasted bun maska on a marble tabletop in Bandra West',
+    imageAlt: 'Freshly poured cutting chai in traditional flared glasses served with warm buttered toasted bun maska on a marble café table in Bandra West Mumbai',
     imageCaption: 'The enduring benchmark of Mumbai hospitality: hot spiced cutting chai paired with golden toasted bun maska on marble.',
     keyTakeaways: [
       'Look for spots tucked around Ranwar Village and Waroda Road for quiet independent counters rather than high-street storefronts.',
@@ -61,8 +61,8 @@ export const ARTICLES: Article[] = [
     seoBaseline: {
       primaryKeyword: 'budget cafes in Bandra West',
       secondaryKeywords: ['affordable cafes Bandra', 'cheap coffee Bandra Mumbai'],
-      metaTitle: 'Budget Cafés in Bandra West — Pocket-Friendly Guide | Bandra Bites',
-      metaDescription: 'Discover affordable cafés, student hangouts, and authentic bakery counters in Bandra West, Mumbai. Complete guide to finding great food and coffee under ₹250.'
+      metaTitle: 'Budget Cafés in Bandra West: Cheap Coffee & Food Guide',
+      metaDescription: 'Find affordable cafés in Bandra West, Mumbai with meals under ₹250. Discover student coffee spots, heritage bakery counters, and cheap cutting chai in Ranwar.'
     },
     relatedArticleRoutes: [
       '/irani-cafes-bandra-heritage',
@@ -75,13 +75,13 @@ export const ARTICLES: Article[] = [
     slug: 'brunch-near-carter-road',
     route: '/brunch-near-carter-road',
     title: 'Brunch Near Carter Road',
-    headline: 'Coastal Morning Rituals: Sourdough, Sea Breezes & Brunch Spots Near Carter Road',
-    deck: 'A practical guide to timing your coastal morning promenade stroll, scoring sunny patio tables, and finding artisan eggs and pour-overs along Bandra’s Arabian Sea strip.',
+    headline: 'Brunch Near Carter Road: Coastal Mornings, Sourdough & Sea Breezes',
+    deck: 'Where can you find the best seaside brunch near Carter Road in Bandra West? The premier coastal brunch experience along Carter Road combines sea-facing outdoor verandas overlooking the Arabian Sea with artisan sourdough avocado toast, poached eggs, and cold brew coffee between 8:30 AM and 9:45 AM. Arriving during this early coastal calm window lets you bypass 45-minute waitlists and take full advantage of calm coastal breezes.',
     category: 'Coastal Dining',
     readTime: '6 min read',
     publishDate: 'Autumn 2026',
     heroImage: '/assets/images/carter_road_brunch_1791895100633.jpg',
-    imageAlt: 'Sun-drenched coastal patio brunch with sourdough avocado toast, poached eggs, fresh tropical fruit and cold brew coffee overlooking the sea',
+    imageAlt: 'Sunlit outdoor seaside brunch table near Carter Road Bandra West with artisan sourdough poached egg toast, iced cold brew, and fresh tropical juice overlooking the promenade',
     imageCaption: 'The quintessential Carter Road morning: vibrant seasonal breakfast plates, single-origin cold brews, and coastal Arabian Sea light.',
     keyTakeaways: [
       'Arrive between 8:30 AM and 9:45 AM to enjoy calm coastal breezes and bypass 45-minute midday waitlists.',
@@ -110,8 +110,8 @@ export const ARTICLES: Article[] = [
     seoBaseline: {
       primaryKeyword: 'brunch near Carter Road',
       secondaryKeywords: ['Carter Road cafes Bandra', 'breakfast Bandra West'],
-      metaTitle: 'Brunch Near Carter Road — Coastal Morning Guide | Bandra Bites',
-      metaDescription: 'Plan your coastal morning brunch near Carter Road, Bandra West. Guide to timing, sea-facing patios, pet-friendly tables, and sourdough breakfast menus.'
+      metaTitle: 'Brunch Near Carter Road: Best Sea-Facing Cafés in Bandra',
+      metaDescription: 'Plan your weekend brunch near Carter Road, Bandra West. Find sea-facing outdoor cafés, sourdough toast, artisanal coffee timings, and seaside promenade tips.'
     },
     relatedArticleRoutes: [
       '/specialty-coffee-bandra-west',
