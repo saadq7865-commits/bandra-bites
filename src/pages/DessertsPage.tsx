@@ -91,7 +91,7 @@ export function DessertsPage() {
           <figure className="space-y-2">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-stone-100 border border-[#F6BD9B]/60 shadow-sm">
               <img
-                src="/src/assets/images/bandra_desserts_pastries_1791895099315.jpg"
+                src="/assets/images/bandra_desserts_pastries_1791895099315.jpg"
                 alt="Artisanal dessert spread with decadent dark chocolate ganache tart, layered berry mille-feuille, and delicate pistachio macaron"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

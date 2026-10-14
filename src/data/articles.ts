@@ -31,7 +31,7 @@ export const ARTICLES: Article[] = [
     category: 'Pocket-Friendly Guides',
     readTime: '7 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/src/assets/images/budget_cafe_chai_1791895098769.jpg',
+    heroImage: '/assets/images/budget_cafe_chai_1791895098769.jpg',
     imageAlt: 'Steaming cutting chai in traditional flared glasses with buttery toasted bun maska on a marble tabletop in Bandra West',
     imageCaption: 'The enduring benchmark of Mumbai hospitality: hot spiced cutting chai paired with golden toasted bun maska on marble.',
     keyTakeaways: [
@@ -80,7 +80,7 @@ export const ARTICLES: Article[] = [
     category: 'Coastal Dining',
     readTime: '6 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/src/assets/images/carter_road_brunch_1791895100633.jpg',
+    heroImage: '/assets/images/carter_road_brunch_1791895100633.jpg',
     imageAlt: 'Sun-drenched coastal patio brunch with sourdough avocado toast, poached eggs, fresh tropical fruit and cold brew coffee overlooking the sea',
     imageCaption: 'The quintessential Carter Road morning: vibrant seasonal breakfast plates, single-origin cold brews, and coastal Arabian Sea light.',
     keyTakeaways: [
@@ -129,7 +129,7 @@ export const ARTICLES: Article[] = [
     category: 'Artisanal Bakery & Desserts',
     readTime: '8 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/src/assets/images/bandra_desserts_pastries_1791895099315.jpg',
+    heroImage: '/assets/images/bandra_desserts_pastries_1791895099315.jpg',
     imageAlt: 'Decadent dark chocolate tart slice, berry mille-feuille, and pistachio macaron on warm handcrafted ceramic plates',
     imageCaption: 'Artisan patisserie craftsmanship: rich 70% chocolate ganache, crisp laminated pastry, and roasted pistachio creams.',
     keyTakeaways: [
@@ -178,7 +178,7 @@ export const ARTICLES: Article[] = [
     category: 'Coffee Culture',
     readTime: '7 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/src/assets/images/specialty_coffee_pour_over_1791961054661.jpg',
+    heroImage: '/assets/images/specialty_coffee_pour_over_1791961054661.jpg',
     imageAlt: 'Specialty pour-over coffee dripping into a glass carafe in an artisan Bandra roastery with roasted coffee beans',
     imageCaption: 'Precision extraction: single-origin Indian Arabica brewed via manual V60 pour-over on a timber coffee bar.',
     keyTakeaways: [
@@ -227,7 +227,7 @@ export const ARTICLES: Article[] = [
     category: 'Heritage & Culture',
     readTime: '6 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/src/assets/images/irani_cafe_heritage_1791961055938.jpg',
+    heroImage: '/assets/images/irani_cafe_heritage_1791961055938.jpg',
     imageAlt: 'Vintage Irani cafe interior with marble tables, bentwood chairs, glass jars filled with mawa cakes and morning newspapers',
     imageCaption: 'A snapshot of Bombay history: vintage glass jars of fresh mawa cakes and morning tea service on weathered marble.',
     keyTakeaways: [
@@ -276,7 +276,7 @@ export const ARTICLES: Article[] = [
     category: 'Work & Lifestyle',
     readTime: '7 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/src/assets/images/work_friendly_cafe_1791961057177.jpg',
+    heroImage: '/assets/images/work_friendly_cafe_1791961057177.jpg',
     imageAlt: 'Remote worker working on a laptop at a spacious wooden communal table in a sunlit plant-filled Bandra cafe',
     imageCaption: 'The creative remote work rhythm: communal oak tables, reliable power outlets, and natural window lighting in Bandra.',
     keyTakeaways: [
@@ -325,7 +325,7 @@ export const ARTICLES: Article[] = [
     category: 'Neighbourhood Spotlight',
     readTime: '6 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/src/assets/images/pali_hill_bistro_1791961057763.jpg',
+    heroImage: '/assets/images/pali_hill_bistro_1791961057763.jpg',
     imageAlt: 'Leafy outdoor terrace cafe in Pali Hill with vibrant bougainvillea flowers, wicker chairs, and artisan iced beverages',
     imageCaption: 'Pali Hill elegance: shaded patio seating beneath bougainvillea vines, artisanal sandwiches, and chilled cold brews.',
     keyTakeaways: [
@@ -374,7 +374,7 @@ export const ARTICLES: Article[] = [
     category: 'Nightlife & Late Eats',
     readTime: '6 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/src/assets/images/late_night_bandra_chai_1791961058044.jpg',
+    heroImage: '/assets/images/late_night_bandra_chai_1791961058044.jpg',
     imageAlt: 'Cozy late night street-side cafe corner in Bandra Mumbai under warm glowing string lights with hot cups of tea and snacks',
     imageCaption: 'The nocturnal Mumbai charm: hot spiced tea, warm buns, and ambient city lights on a quiet Bandra midnight corner.',
     keyTakeaways: [
@@ -423,7 +423,7 @@ export const ARTICLES: Article[] = [
     category: 'Wellness & Nutrition',
     readTime: '7 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/src/assets/images/vegan_healthy_cafe_1791961058683.jpg',
+    heroImage: '/assets/images/vegan_healthy_cafe_1791961058683.jpg',
     imageAlt: 'Vibrant plant-based brunch spread with berry smoothie bowl, sourdough avocado toast with microgreens, and a fresh matcha drink',
     imageCaption: 'Nutrient-rich mindful dining: fresh smoothie bowls, crushed avocado on sourdough, and ceremonial matcha in Bandra.',
     keyTakeaways: [
@@ -472,7 +472,7 @@ export const ARTICLES: Article[] = [
     category: 'Food Crawls & Walks',
     readTime: '8 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/src/assets/images/bandra_street_food_crawl_1791961058830.jpg',
+    heroImage: '/assets/images/bandra_street_food_crawl_1791961058830.jpg',
     imageAlt: 'Bandra street food and cafe crawl table with freshly toasted spiced sandwich, cutting chai in glass, and cold brew coffee',
     imageCaption: 'The ultimate Bandra crossover: spiced street sandwich with green chutney paired with single-estate cold brew on an outdoor bench.',
     keyTakeaways: [

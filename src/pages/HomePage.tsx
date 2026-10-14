@@ -95,7 +95,7 @@ export function HomePage() {
             <div className="lg:col-span-5 flex flex-col">
               <div className="relative rounded-2xl overflow-hidden shadow-md border border-[#F6BD9B]/50 bg-stone-100 h-full min-h-[340px] lg:min-h-[420px]">
                 <img
-                  src="/src/assets/images/hero_bandra_cafe_1791895097942.jpg"
+                  src="/assets/images/hero_bandra_cafe_1791895097942.jpg"
                   alt="Sunlit artisanal cafe in Bandra West with pour-over coffee carafe and fresh croissants overlooking tropical greenery"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

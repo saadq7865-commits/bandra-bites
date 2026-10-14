@@ -91,7 +91,7 @@ export function BudgetCafesPage() {
           <figure className="space-y-2">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-stone-100 border border-[#F6BD9B]/60 shadow-sm">
               <img
-                src="/src/assets/images/budget_cafe_chai_1791895098769.jpg"
+                src="/assets/images/budget_cafe_chai_1791895098769.jpg"
                 alt="Traditional cutting chai in flared glasses and buttery toasted bun maska on vintage marble tabletop"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

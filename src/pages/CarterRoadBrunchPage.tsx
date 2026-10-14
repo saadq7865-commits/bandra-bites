@@ -93,7 +93,7 @@ export function CarterRoadBrunchPage() {
           <figure className="space-y-2">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-stone-100 border border-[#F6BD9B]/60 shadow-sm">
               <img
-                src="/src/assets/images/carter_road_brunch_1791895100633.jpg"
+                src="/assets/images/carter_road_brunch_1791895100633.jpg"
                 alt="Sun-drenched coastal patio brunch with sourdough avocado toast, poached eggs, fresh tropical fruit and cold brew coffee overlooking the sea"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
