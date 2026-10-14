@@ -1,0 +1,6 @@
+{
+  "name": "Bandra Bites",
+  "description": "A café and food discovery guide for Bandra West, Mumbai, India. Features curated guides for budget cafés, coastal brunch spots near Carter Road, and artisanal desserts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
