@@ -15,7 +15,7 @@ export function Navbar({ onQuickExplore }: NavbarProps) {
     { label: 'Budget Cafés', href: '/budget-cafes-bandra-west' },
     { label: 'Carter Rd Brunch', href: '/brunch-near-carter-road' },
     { label: 'Desserts', href: '/desserts-bandra-west' },
-    { label: 'Specialty Coffee', href: '/specialty-coffee-bandra-west' },
+    { label: 'Coffee Spots', href: '/coffee-spots-bandra-west' },
   ];
 
   const handleActionClick = () => {

@@ -14,20 +14,34 @@ export function useRouter() {
   return useContext(RouterContext);
 }
 
+export const ROUTE_ALIASES: Record<string, string> = {
+  '/specialty-coffee-bandra-west': '/coffee-spots-bandra-west',
+  '/work-friendly-cafes-bandra-west': '/cafes-for-studying-bandra-west',
+  '/irani-cafes-bandra-heritage': '/bakeries-bun-maska-bandra-west',
+  '/pali-hill-cafes-guide': '/food-near-hill-road-bandra',
+  '/late-night-cafes-bandra-west': '/breakfast-places-bandra-west',
+  '/vegan-healthy-cafes-bandra': '/vegetarian-food-bandra-west',
+  '/street-food-and-cafe-crawl-bandra': '/street-food-bandra-west',
+};
+
 interface RouterProviderProps {
   children: ReactNode;
+  initialPath?: string;
 }
 
-export function RouterProvider({ children }: RouterProviderProps) {
-  // Normalize pathname to ensure leading slash and remove trailing slash (except root)
+export function RouterProvider({ children, initialPath }: RouterProviderProps) {
+  // Normalize pathname to ensure leading slash, resolve aliases, and remove trailing slash (except root)
   const getNormalizedPath = (path: string): string => {
     let clean = path || '/';
     if (!clean.startsWith('/')) clean = '/' + clean;
     if (clean.length > 1 && clean.endsWith('/')) clean = clean.slice(0, -1);
-    return clean;
+    return ROUTE_ALIASES[clean] || clean;
   };
 
   const [currentPath, setCurrentPath] = useState<string>(() => {
+    if (initialPath) {
+      return getNormalizedPath(initialPath);
+    }
     if (typeof window !== 'undefined') {
       return getNormalizedPath(window.location.pathname);
     }
@@ -37,15 +51,21 @@ export function RouterProvider({ children }: RouterProviderProps) {
   const navigate = (path: string) => {
     const normalized = getNormalizedPath(path);
     if (normalized !== currentPath) {
-      window.history.pushState({}, '', normalized);
+      if (typeof window !== 'undefined') {
+        window.history.pushState({}, '', normalized);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
       setCurrentPath(normalized);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (typeof window !== 'undefined') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
     }
   };
 
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+
     const handlePopState = () => {
       setCurrentPath(getNormalizedPath(window.location.pathname));
       window.scrollTo({ top: 0, behavior: 'auto' });

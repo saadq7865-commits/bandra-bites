@@ -18,13 +18,18 @@ function AppContent() {
   // Synchronize document title, meta tags, and structured data independently per page route
   useEffect(() => {
     if (typeof document !== 'undefined') {
+      const siteOrigin = 'https://bandra-bites-phi.vercel.app';
       let title = HOMEPAGE_SEO.metaTitle;
       let description = HOMEPAGE_SEO.metaDescription;
-      let canonicalUrl = typeof window !== 'undefined' ? `${window.location.origin}${currentPath}` : currentPath;
+      let canonicalUrl = `${siteOrigin}${currentPath === '/' ? '' : currentPath}`;
+      let ogImage = `${siteOrigin}/assets/images/hero_bandra_cafe_1791895097942.webp`;
+      let keywords = [HOMEPAGE_SEO.primaryKeyword, ...HOMEPAGE_SEO.secondaryKeywords];
 
       if (currentArticle) {
         title = currentArticle.seoBaseline.metaTitle;
         description = currentArticle.seoBaseline.metaDescription;
+        ogImage = `${siteOrigin}${currentArticle.heroImage}`;
+        keywords = [currentArticle.seoBaseline.primaryKeyword, ...currentArticle.seoBaseline.secondaryKeywords];
       } else if (currentPath !== '/') {
         title = 'Page Not Found — Bandra Bites | Bandra West, Mumbai';
         description = 'The requested guide could not be located in our Bandra West directory.';
@@ -57,16 +62,21 @@ function AppContent() {
 
       // Set standard meta description & canonical URL
       setMetaTag('name', 'description', description);
+      setMetaTag('name', 'keywords', keywords.join(', '));
       setLinkTag('canonical', canonicalUrl);
 
       // Set OpenGraph tags
       setMetaTag('property', 'og:title', title);
       setMetaTag('property', 'og:description', description);
       setMetaTag('property', 'og:url', canonicalUrl);
+      setMetaTag('property', 'og:image', ogImage);
+      setMetaTag('property', 'og:type', currentArticle ? 'article' : 'website');
 
       // Set Twitter Card tags
+      setMetaTag('name', 'twitter:card', 'summary_large_image');
       setMetaTag('name', 'twitter:title', title);
       setMetaTag('name', 'twitter:description', description);
+      setMetaTag('name', 'twitter:image', ogImage);
 
       // Set Schema.org JSON-LD structured data in the HTML head
       let schemaScript = document.getElementById('seo-jsonld');
@@ -83,14 +93,20 @@ function AppContent() {
             '@type': 'Article',
             headline: currentArticle.headline,
             description: description,
-            image: typeof window !== 'undefined' ? `${window.location.origin}${currentArticle.heroImage}` : currentArticle.heroImage,
+            image: ogImage,
+            datePublished: '2026-09-01T08:00:00+05:30',
+            dateModified: '2026-10-15T12:00:00+05:30',
             author: {
               '@type': 'Organization',
               name: 'Bandra Bites Editorial Desk'
             },
             publisher: {
               '@type': 'Organization',
-              name: 'Bandra Bites'
+              name: 'Bandra Bites',
+              logo: {
+                '@type': 'ImageObject',
+                url: `${siteOrigin}/assets/images/hero_bandra_cafe_1791895097942.webp`
+              }
             },
             mainEntityOfPage: {
               '@type': 'WebPage',
@@ -239,9 +255,9 @@ function AppContent() {
   );
 }
 
-export default function App() {
+export default function App({ initialPath }: { initialPath?: string } = {}) {
   return (
-    <RouterProvider>
+    <RouterProvider initialPath={initialPath}>
       <AppContent />
     </RouterProvider>
   );

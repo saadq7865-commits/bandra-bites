@@ -14,10 +14,10 @@ export const HOMEPAGE_QA: QuestionAnswer[] = [
 ];
 
 export const HOMEPAGE_SEO: SEOMetadata = {
-  primaryKeyword: 'Bandra West café guide',
-  secondaryKeywords: ['best cafes in Bandra', 'Bandra food discovery'],
+  primaryKeyword: 'cafes in Bandra West',
+  secondaryKeywords: ['cafes in Bandra West Hill Road', 'cafes in Bandra West Linking Road'],
   metaTitle: 'Bandra Bites: Best Cafés & Food in Bandra West Mumbai',
-  metaDescription: 'Discover the best cafés, coastal brunch spots, and hidden bakeries in Bandra West, Mumbai. Explore 10 curated neighbourhood guides with local prices and tips.'
+  metaDescription: 'Discover the best cafés, coastal brunch spots, and hidden bakeries in Bandra West, Mumbai. Explore 10 curated neighbourhood guides with local food tips.'
 };
 
 export const ARTICLES: Article[] = [
@@ -31,8 +31,8 @@ export const ARTICLES: Article[] = [
     category: 'Pocket-Friendly Guides',
     readTime: '7 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/assets/images/budget_cafe_chai_1791895098769.jpg',
-    imageAlt: 'Freshly poured cutting chai in traditional flared glasses served with warm buttered toasted bun maska on a marble café table in Bandra West Mumbai',
+    heroImage: '/assets/images/budget_cafe_chai_1791895098769.webp',
+    imageAlt: 'Fresh cutting chai and warm buttered bun maska on a marble table in a budget café in Bandra West Mumbai',
     imageCaption: 'The enduring benchmark of Mumbai hospitality: hot spiced cutting chai paired with golden toasted bun maska on marble.',
     keyTakeaways: [
       'Look for spots tucked around Ranwar Village and Waroda Road for quiet independent counters rather than high-street storefronts.',
@@ -42,7 +42,7 @@ export const ARTICLES: Article[] = [
     ],
     fieldSummary: {
       focusArea: 'Ranwar Village, Waroda Road, St. Andrew’s Corridor',
-      budgetOrTime: '₹80 – ₹250 per person',
+      budgetOrTime: '₹80 – ₹250 per person (estimated)',
       signatures: 'Cardamom cutting chai, bun maska, cold brew & toasties',
       localTip: 'Opt for counter service to skip discretionary service charges'
     },
@@ -60,14 +60,14 @@ export const ARTICLES: Article[] = [
     ],
     seoBaseline: {
       primaryKeyword: 'budget cafes in Bandra West',
-      secondaryKeywords: ['affordable cafes Bandra', 'cheap coffee Bandra Mumbai'],
+      secondaryKeywords: ['affordable cafes in Bandra West', 'cheap cafes in Bandra West'],
       metaTitle: 'Budget Cafés in Bandra West: Cheap Coffee & Food Guide',
-      metaDescription: 'Find affordable cafés in Bandra West, Mumbai with meals under ₹250. Discover student coffee spots, heritage bakery counters, and cheap cutting chai in Ranwar.'
+      metaDescription: 'Discover the top budget cafés in Bandra West for cheap coffee, fresh breakfasts, and cozy study tables under ₹250. Plan your affordable Mumbai food trail.'
     },
     relatedArticleRoutes: [
-      '/irani-cafes-bandra-heritage',
-      '/work-friendly-cafes-bandra-west',
-      '/street-food-and-cafe-crawl-bandra'
+      '/brunch-near-carter-road',
+      '/desserts-bandra-west',
+      '/coffee-spots-bandra-west'
     ]
   },
   {
@@ -80,8 +80,8 @@ export const ARTICLES: Article[] = [
     category: 'Coastal Dining',
     readTime: '6 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/assets/images/carter_road_brunch_1791895100633.jpg',
-    imageAlt: 'Sunlit outdoor seaside brunch table near Carter Road Bandra West with artisan sourdough poached egg toast, iced cold brew, and fresh tropical juice overlooking the promenade',
+    heroImage: '/assets/images/carter_road_brunch_1791895100633.webp',
+    imageAlt: 'Sunlit outdoor seaside brunch table near Carter Road Bandra West with sourdough toast, eggs, cold brew, and ocean views',
     imageCaption: 'The quintessential Carter Road morning: vibrant seasonal breakfast plates, single-origin cold brews, and coastal Arabian Sea light.',
     keyTakeaways: [
       'Arrive between 8:30 AM and 9:45 AM to enjoy calm coastal breezes and bypass 45-minute midday waitlists.',
@@ -99,7 +99,7 @@ export const ARTICLES: Article[] = [
       {
         question: 'What time is best for weekend brunch near Carter Road without long queues?',
         directAnswer: 'The ideal arrival window is between 8:30 AM and 9:45 AM.',
-        supportingDetails: 'During this morning window, the coastal temperatures remain comfortable, tables on sea-facing patios are readily available, and waitlists are non-existent. After 11:15 AM, wait times routinely climb to 40 minutes.'
+        supportingDetails: 'During this morning window, coastal temperatures remain pleasant, tables on sea-facing patios are readily available, and waitlists are non-existent. After 11:15 AM, wait times routinely climb to 40 minutes.'
       },
       {
         question: 'Are cafés along Carter Road pet-friendly for dog owners?',
@@ -109,14 +109,14 @@ export const ARTICLES: Article[] = [
     ],
     seoBaseline: {
       primaryKeyword: 'brunch near Carter Road',
-      secondaryKeywords: ['Carter Road cafes Bandra', 'breakfast Bandra West'],
-      metaTitle: 'Brunch Near Carter Road: Best Sea-Facing Cafés in Bandra',
-      metaDescription: 'Plan your weekend brunch near Carter Road, Bandra West. Find sea-facing outdoor cafés, sourdough toast, artisanal coffee timings, and seaside promenade tips.'
+      secondaryKeywords: ['breakfast places near Carter Road', 'Carter Road cafes'],
+      metaTitle: 'Brunch Near Carter Road: Best Sea-Facing Bandra Cafés',
+      metaDescription: 'Plan your seaside weekend with the best brunch near Carter Road, Bandra West. Find coastal cafés, sourdough toasts, sea breezes, and breezy breakfast spots.'
     },
     relatedArticleRoutes: [
-      '/specialty-coffee-bandra-west',
-      '/vegan-healthy-cafes-bandra',
-      '/pali-hill-cafes-guide'
+      '/budget-cafes-bandra-west',
+      '/desserts-bandra-west',
+      '/coffee-spots-bandra-west'
     ]
   },
   {
@@ -125,12 +125,12 @@ export const ARTICLES: Article[] = [
     route: '/desserts-bandra-west',
     title: 'Desserts in Bandra West',
     headline: 'The Sweet Tooth Trail: Discovering Cakes, Tarts & Pastries in Bandra West',
-    deck: 'From century-old Anglo-Indian village bakeries to third-wave French patisseries and small-batch gelato bars tucked into leafy bylanes.',
+    deck: 'Where are the finest artisanal dessert spots and bakeries in Bandra West? From century-old Anglo-Indian village ovens to contemporary French patisseries and small-batch gelato bars tucked into leafy bylanes, Bandra West is Mumbai’s sweet capital.',
     category: 'Artisanal Bakery & Desserts',
     readTime: '8 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/assets/images/bandra_desserts_pastries_1791895099315.jpg',
-    imageAlt: 'Decadent dark chocolate tart slice, berry mille-feuille, and pistachio macaron on warm handcrafted ceramic plates',
+    heroImage: '/assets/images/bandra_desserts_pastries_1791895099315.webp',
+    imageAlt: 'Artisanal dark chocolate tart slice, berry mille-feuille, and pistachio macaron on ceramic plates in Bandra West',
     imageCaption: 'Artisan patisserie craftsmanship: rich 70% chocolate ganache, crisp laminated pastry, and roasted pistachio creams.',
     keyTakeaways: [
       'Bandra’s sweet roots blend Portuguese-era Goan/East Indian tea cakes with contemporary European patisserie craft.',
@@ -158,132 +158,34 @@ export const ARTICLES: Article[] = [
     ],
     seoBaseline: {
       primaryKeyword: 'desserts in Bandra West',
-      secondaryKeywords: ['bakeries Bandra West', 'pastries Bandra Mumbai'],
-      metaTitle: 'Desserts in Bandra West — Cakes, Tarts & Pastries | Bandra Bites',
-      metaDescription: 'Explore artisanal desserts, French patisseries, and heritage village bakeries across Bandra West, Mumbai. Tasting guide, pairing tips, and humidity care.'
+      secondaryKeywords: ['best desserts in Bandra West', 'dessert shops in Bandra West'],
+      metaTitle: 'Desserts in Bandra West: Best Cakes, Tarts & Bakeries',
+      metaDescription: 'Indulge in artisanal desserts, French patisseries, and heritage bakery bakes in Bandra West, Mumbai. Explore top chocolate tarts, gelatos, and sweet trails.'
     },
     relatedArticleRoutes: [
-      '/specialty-coffee-bandra-west',
-      '/irani-cafes-bandra-heritage',
-      '/late-night-cafes-bandra-west'
+      '/coffee-spots-bandra-west',
+      '/bakeries-bun-maska-bandra-west',
+      '/brunch-near-carter-road'
     ]
   },
   {
-    id: 'specialty-coffee',
-    slug: 'specialty-coffee-bandra-west',
-    route: '/specialty-coffee-bandra-west',
-    title: 'Specialty Coffee in Bandra West',
-    headline: 'Third-Wave Coffee in Bandra West: Micro-Roasters, Pour-Overs & Single Origins',
-    deck: 'How Bandra West became the brewing laboratory of Mumbai, showcasing light roasts from Karnataka and Kerala alongside precision manual brewing.',
-    category: 'Coffee Culture',
+    id: 'cafes-for-studying',
+    slug: 'cafes-for-studying-bandra-west',
+    route: '/cafes-for-studying-bandra-west',
+    title: 'Cafés for Studying in Bandra West',
+    headline: 'Cafés for Studying in Bandra West: Quiet Tables, Wi-Fi & Work Corners',
+    deck: 'Where can you find the best cafés for studying and remote working in Bandra West? Discover quiet study spots with stable Wi-Fi, accessible power outlets, and peaceful ambiance across Pali Naka, Chuim Village, and Waroda Road.',
+    category: 'Study & Workspace',
     readTime: '7 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/assets/images/specialty_coffee_pour_over_1791961054661.jpg',
-    imageAlt: 'Specialty pour-over coffee dripping into a glass carafe in an artisan Bandra roastery with roasted coffee beans',
-    imageCaption: 'Precision extraction: single-origin Indian Arabica brewed via manual V60 pour-over on a timber coffee bar.',
-    keyTakeaways: [
-      'Bandra roasters champion single-estate beans from Chikmagalur, Araku Valley, and Wayanad.',
-      'Manual brew methods like V60 and AeroPress highlight delicate floral and fruity notes that milk drinks mask.',
-      'Ask the barista for roast dates; beans rested between 7 and 21 days deliver optimum sweetness.',
-      'Cold brews and tonic espressos provide crisp refreshment during warm coastal afternoons.'
-    ],
-    fieldSummary: {
-      focusArea: 'Pali Naka, Chapel Road & Chuim Village',
-      budgetOrTime: '₹220 – ₹380 for manual brews',
-      signatures: 'V60 pour-over, nitro cold brew, espresso tonic',
-      localTip: 'Try light-roast washed beans black before adding sweetener'
-    },
-    qaSections: [
-      {
-        question: 'What makes specialty coffee distinct in Bandra West compared to chain cafes?',
-        directAnswer: 'Specialty coffee roasters in Bandra source single-estate beans directly from Indian farms and roast them lightly to accentuate terroir rather than dark bitterness.',
-        supportingDetails: 'Unlike commercial chains that over-roast beans for uniformity, Bandra’s third-wave roasters use precision brewing temperatures, scales, and origin profiles to highlight notes of berries, cacao, and citrus.'
-      },
-      {
-        question: 'Which manual brew method should a beginner order at a Bandra roastery?',
-        directAnswer: 'A V60 pour-over or a chilled AeroPress over ice is the best entry point for discovering specialty coffee flavors.',
-        supportingDetails: 'These filtration methods extract a clean, tea-like body that allows subtle terroir notes to shine through cleanly without astringent heaviness.'
-      }
-    ],
-    seoBaseline: {
-      primaryKeyword: 'specialty coffee Bandra West',
-      secondaryKeywords: ['coffee roasters Bandra', 'pour over coffee Mumbai'],
-      metaTitle: 'Specialty Coffee in Bandra West — Third-Wave Roasters | Bandra Bites',
-      metaDescription: 'Discover the best specialty coffee roasters, single-origin beans, and manual pour-over cafes in Bandra West, Mumbai. Tasting notes and barista recommendations.'
-    },
-    relatedArticleRoutes: [
-      '/work-friendly-cafes-bandra-west',
-      '/pali-hill-cafes-guide',
-      '/desserts-bandra-west'
-    ]
-  },
-  {
-    id: 'irani-cafes-heritage',
-    slug: 'irani-cafes-bandra-heritage',
-    route: '/irani-cafes-bandra-heritage',
-    title: 'Historic Irani Cafés & Heritage Bakeries',
-    headline: 'Bandra’s Living Nostalgia: Irani Cafés, Mawa Cakes & Morning Bun Maska',
-    deck: 'Stepping into vintage establishments where bentwood chairs, marble tables, and strong cardamom tea tell the story of old-world Mumbai.',
-    category: 'Heritage & Culture',
-    readTime: '6 min read',
-    publishDate: 'Autumn 2026',
-    heroImage: '/assets/images/irani_cafe_heritage_1791961055938.jpg',
-    imageAlt: 'Vintage Irani cafe interior with marble tables, bentwood chairs, glass jars filled with mawa cakes and morning newspapers',
-    imageCaption: 'A snapshot of Bombay history: vintage glass jars of fresh mawa cakes and morning tea service on weathered marble.',
-    keyTakeaways: [
-      'Irani cafés introduced Mumbai to casual communal dining and pocket-friendly tea culture over a century ago.',
-      'Always dip warm, buttered bun maska into sweet cardamom tea for the authentic experience.',
-      'Traditional glass vitrines display mawa cakes, brun maska, and ginger biscuits baked daily.',
-      'Cash denominations under ₹100 are still appreciated at older counter registers.'
-    ],
-    fieldSummary: {
-      focusArea: 'Hill Road, Station Approach & Bazaar Road',
-      budgetOrTime: '7:00 AM – 9:00 AM for fresh oven bakes',
-      signatures: 'Bun maska, Irani chai, mawa cake, mutton puff',
-      localTip: 'Order brun pav if you prefer a crackly crust over soft buns'
-    },
-    qaSections: [
-      {
-        question: 'What is the traditional way to eat bun maska in an Irani café?',
-        directAnswer: 'The traditional custom is to dip the warm, buttered bun directly into your hot cup of strong, sweet Irani chai.',
-        supportingDetails: 'The hot tea softens the sweet bun and melts the salted butter into the crumb, creating the iconic sweet-and-savory contrast beloved across Mumbai for generations.'
-      },
-      {
-        question: 'Why are historic Irani cafes culturally significant in Bandra West?',
-        directAnswer: 'Irani cafés served as early secular community hubs where people of all social classes, professions, and faiths mingled equally over affordable tea.',
-        supportingDetails: 'Their architectural heritage—wooden mezzanine railings, marble tabletops, and bentwood chairs—remains a living link to Mumbai’s early 20th-century urban history.'
-      }
-    ],
-    seoBaseline: {
-      primaryKeyword: 'Irani cafes Bandra',
-      secondaryKeywords: ['heritage bakeries Bandra', 'bun maska Bandra Mumbai'],
-      metaTitle: 'Historic Irani Cafés & Heritage Bakeries in Bandra | Bandra Bites',
-      metaDescription: 'Explore the vintage charm of Irani cafés and heritage bakeries in Bandra West, Mumbai. Classic bun maska, mawa cakes, and timeless teatime traditions.'
-    },
-    relatedArticleRoutes: [
-      '/budget-cafes-bandra-west',
-      '/street-food-and-cafe-crawl-bandra',
-      '/late-night-cafes-bandra-west'
-    ]
-  },
-  {
-    id: 'work-friendly-cafes',
-    slug: 'work-friendly-cafes-bandra-west',
-    route: '/work-friendly-cafes-bandra-west',
-    title: 'Work-Friendly Cafés in Bandra West',
-    headline: 'Laptop Havens: Wi-Fi, Plugs & Quiet Corners for Remote Workers in Bandra',
-    deck: 'A practical digital nomad and freelancer guide to discovering work-friendly café tables, reliable internet, and courteous remote-working etiquette.',
-    category: 'Work & Lifestyle',
-    readTime: '7 min read',
-    publishDate: 'Autumn 2026',
-    heroImage: '/assets/images/work_friendly_cafe_1791961057177.jpg',
-    imageAlt: 'Remote worker working on a laptop at a spacious wooden communal table in a sunlit plant-filled Bandra cafe',
-    imageCaption: 'The creative remote work rhythm: communal oak tables, reliable power outlets, and natural window lighting in Bandra.',
+    heroImage: '/assets/images/work_friendly_cafe_1791961057177.webp',
+    imageAlt: 'Student studying on a laptop at a spacious wooden communal table in a sunlit plant-filled Bandra West study cafe',
+    imageCaption: 'The creative study rhythm: communal oak tables, reliable power outlets, and natural window lighting in Bandra West.',
     keyTakeaways: [
       'Look for cafés with designated communal workbenches equipped with accessible power sockets.',
       'Arrive before 10:30 AM to secure a comfortable corner table with steady natural light.',
-      'Practice good café etiquette: reorder beverages or food every two hours when using Wi-Fi.',
-      'Keep video conference calls brief and use headphones to respect other patrons.'
+      'Practice good study café etiquette: reorder beverages or food every two hours when using Wi-Fi.',
+      'Keep video conference calls brief and use headphones to respect fellow patrons.'
     ],
     fieldSummary: {
       focusArea: 'Pali Naka, Chuim Village & Chapel Road',
@@ -293,187 +195,89 @@ export const ARTICLES: Article[] = [
     },
     qaSections: [
       {
-        question: 'What is the etiquette for working on a laptop at a Bandra café?',
+        question: 'Which cafés in Bandra West have reliable Wi-Fi and power outlets for studying?',
+        directAnswer: 'Independent cafés around Pali Naka and Chuim Village provide dedicated communal study tables with accessible wall plugs and high-speed Wi-Fi.',
+        supportingDetails: 'Many spots actively accommodate students and remote workers during weekday mornings, offering spacious work tables, multiple charging strips, and quiet background playlists.'
+      },
+      {
+        question: 'What is the etiquette for studying on a laptop at a Bandra café?',
         directAnswer: 'Order an item every 90 to 120 minutes, keep phone calls on low volume with headphones, and vacate four-person tables during peak lunch rushes.',
-        supportingDetails: 'Independent cafes rely on table turnover to survive. Contributing consistently to the bill and choosing counter or communal seating ensures remote workers remain welcome.'
-      },
-      {
-        question: 'Which times of day are quietest for working at Bandra West cafés?',
-        directAnswer: 'Weekday mornings between 9:00 AM and 11:45 AM, and mid-afternoons between 2:30 PM and 4:30 PM offer the calmest working environments.',
-        supportingDetails: 'During these windows, lunch crowds have not yet peaked, ambient music is kept at gentle levels, and Wi-Fi bandwidth experiences minimal network contention.'
+        supportingDetails: 'Independent cafes rely on table turnover to survive. Contributing consistently to the bill and choosing counter or communal seating ensures remote workers and students remain welcome.'
       }
     ],
     seoBaseline: {
-      primaryKeyword: 'work-friendly cafes Bandra West',
-      secondaryKeywords: ['wifi cafes Bandra', 'laptop friendly cafes Mumbai'],
-      metaTitle: 'Work-Friendly Cafés in Bandra West — Laptop & Wi-Fi Guide | Bandra Bites',
-      metaDescription: 'Find quiet, work-friendly cafés with reliable Wi-Fi, power sockets, and great coffee in Bandra West, Mumbai. Remote worker etiquette and top work spots.'
+      primaryKeyword: 'cafes for studying in Bandra West',
+      secondaryKeywords: ['study cafes in Bandra West', 'work friendly cafes Bandra'],
+      metaTitle: 'Cafés for Studying in Bandra West: Wi-Fi & Work Guide',
+      metaDescription: 'Find the quietest study cafés in Bandra West with fast Wi-Fi, ample power outlets, and peaceful workspaces. Study tips and productive seating guide in Mumbai.'
     },
     relatedArticleRoutes: [
-      '/specialty-coffee-bandra-west',
+      '/coffee-spots-bandra-west',
       '/budget-cafes-bandra-west',
-      '/pali-hill-cafes-guide'
+      '/food-near-hill-road-bandra'
     ]
   },
   {
-    id: 'pali-hill-cafes',
-    slug: 'pali-hill-cafes-guide',
-    route: '/pali-hill-cafes-guide',
-    title: 'Pali Hill & Pali Naka Cafés',
-    headline: 'Under the Green Canopy: Leafy Terraces, Chic Bistros & Roasters in Pali Hill',
-    deck: 'Wandering through the winding hills and bougainvillea-framed verandahs of Bandra’s most glamorous dining and coffee neighborhood.',
-    category: 'Neighbourhood Spotlight',
-    readTime: '6 min read',
-    publishDate: 'Autumn 2026',
-    heroImage: '/assets/images/pali_hill_bistro_1791961057763.jpg',
-    imageAlt: 'Leafy outdoor terrace cafe in Pali Hill with vibrant bougainvillea flowers, wicker chairs, and artisan iced beverages',
-    imageCaption: 'Pali Hill elegance: shaded patio seating beneath bougainvillea vines, artisanal sandwiches, and chilled cold brews.',
-    keyTakeaways: [
-      'Pali Hill features lush tree cover and quiet residential contours that feel distinct from coastal Bandra.',
-      'Pali Naka junction serves as the energetic crossroads for artisanal gelato, gourmet groceries, and specialty espresso bars.',
-      'Outdoor verandas offer prime afternoon ambiance for writers, actors, and neighbourhood creatives.',
-      'Afternoon reservations or early arrivals are recommended for coveted weekend terrace tables.'
-    ],
-    fieldSummary: {
-      focusArea: 'Pali Hill slopes, Zig Zag Road & Pali Naka',
-      budgetOrTime: '₹350 – ₹650 per person',
-      signatures: 'Espresso tonics, gourmet sandwiches, artisan gelato',
-      localTip: 'Walk the uphill slopes from Pali Naka for quiet shaded alleys'
-    },
-    qaSections: [
-      {
-        question: 'What makes Pali Hill cafés distinct from other parts of Bandra West?',
-        directAnswer: 'Pali Hill cafés are characterized by leafy garden terraces, tranquil residential contours, and high-end design-focused interiors.',
-        supportingDetails: 'Because the hill is shaded by historic banyan and rain trees, outdoor verandahs here provide an oasis of natural greenery away from the honking commercial traffic of main Bandra arteries.'
-      },
-      {
-        question: 'Is it easy to find parking around Pali Hill and Pali Naka?',
-        directAnswer: 'No, parking around Pali Hill is extremely limited due to narrow residential slopes and resident parking restrictions.',
-        supportingDetails: 'Taking an auto-rickshaw to Pali Naka and exploring the hill’s winding roads on foot is far more relaxed and allows you to discover tucked-away courtyard cafes.'
-      }
-    ],
-    seoBaseline: {
-      primaryKeyword: 'Pali Hill cafes Bandra',
-      secondaryKeywords: ['Pali Naka restaurants', 'bistros Bandra West'],
-      metaTitle: 'Pali Hill & Pali Naka Cafés — Leafy Terraces & Bistros | Bandra Bites',
-      metaDescription: 'Explore charming garden cafes, chic bistros, and specialty coffee spots nestled beneath the leafy canopy of Pali Hill and Pali Naka, Bandra West.'
-    },
-    relatedArticleRoutes: [
-      '/specialty-coffee-bandra-west',
-      '/brunch-near-carter-road',
-      '/desserts-bandra-west'
-    ]
-  },
-  {
-    id: 'late-night-cafes',
-    slug: 'late-night-cafes-bandra-west',
-    route: '/late-night-cafes-bandra-west',
-    title: 'Late-Night Cafés & Midnight Chai',
-    headline: 'After Hours in Bandra: Midnight Cutting Chai, Nocturnal Cafés & Quiet Strolls',
-    deck: 'When the suburb winds down, late-night tea stalls, dessert counters, and 24-hour coastal benches come alive under city streetlights.',
-    category: 'Nightlife & Late Eats',
-    readTime: '6 min read',
-    publishDate: 'Autumn 2026',
-    heroImage: '/assets/images/late_night_bandra_chai_1791961058044.jpg',
-    imageAlt: 'Cozy late night street-side cafe corner in Bandra Mumbai under warm glowing string lights with hot cups of tea and snacks',
-    imageCaption: 'The nocturnal Mumbai charm: hot spiced tea, warm buns, and ambient city lights on a quiet Bandra midnight corner.',
-    keyTakeaways: [
-      'Bandra remains one of Mumbai’s safest and most pleasant neighborhoods for midnight walks and late-night tea.',
-      'Popular nocturnal stops include roadside chai stalls near Bandra Bandstand and late-operating dessert counters near Pali Naka.',
-      'Late-night tea is best enjoyed on open benches while listening to distant Arabian Sea waves.',
-      'Digital UPI payments are accepted almost universally, even at 1:00 AM roadside stalls.'
-    ],
-    fieldSummary: {
-      focusArea: 'Bandstand, Carter Road promenade & Hill Road junction',
-      budgetOrTime: '10:30 PM – 1:30 AM',
-      signatures: 'Midnight masala chai, warm bun maska, late-night gelato',
-      localTip: 'Wrap up your evening with a seaside breeze walk along Bandstand'
-    },
-    qaSections: [
-      {
-        question: 'Are there cafes and chai spots open late at night in Bandra West?',
-        directAnswer: 'Yes, several tea stalls, quick-service cafes, and gelato parlours in Bandra West stay open until 1:00 AM or later.',
-        supportingDetails: 'While sit-down specialty roasteries usually close by 11:00 PM, roadside chai corners, dessert parlours near Pali Naka, and takeaway spots around Carter Road buzz with late-night visitors well past midnight.'
-      },
-      {
-        question: 'Is it safe to explore Bandra West late at night for coffee and tea?',
-        directAnswer: 'Yes, Bandra West is widely regarded as one of Mumbai’s safest neighbourhoods for nocturnal strolls.',
-        supportingDetails: 'Prominently lit thoroughfares, regular police patrolling, and an active evening community of dog-walkers and night runners make late tea outings comfortable and welcoming.'
-      }
-    ],
-    seoBaseline: {
-      primaryKeyword: 'late night cafes Bandra West',
-      secondaryKeywords: ['midnight chai Bandra', 'late night food Bandra Mumbai'],
-      metaTitle: 'Late-Night Cafés & Midnight Chai in Bandra West | Bandra Bites',
-      metaDescription: 'Discover late-night cafés, roadside midnight chai, and post-dinner dessert spots in Bandra West, Mumbai. Safe nocturnal strolls and nocturnal field tips.'
-    },
-    relatedArticleRoutes: [
-      '/irani-cafes-bandra-heritage',
-      '/desserts-bandra-west',
-      '/street-food-and-cafe-crawl-bandra'
-    ]
-  },
-  {
-    id: 'vegan-healthy-cafes',
-    slug: 'vegan-healthy-cafes-bandra',
-    route: '/vegan-healthy-cafes-bandra',
-    title: 'Plant-Based & Healthy Dining',
-    headline: 'Mindful Eating in Bandra West: Plant-Based Bowls, Cold-Pressed Juices & Gluten-Free Bakes',
-    deck: 'A conscious diner’s guide to organic produce, oat milk flat whites, vibrant acai bowls, and farm-to-fork dining across Bandra’s wellness enclaves.',
-    category: 'Wellness & Nutrition',
+    id: 'coffee-spots',
+    slug: 'coffee-spots-bandra-west',
+    route: '/coffee-spots-bandra-west',
+    title: 'Coffee Spots in Bandra West',
+    headline: 'Coffee Spots in Bandra West: Top Specialty Roasters & Manual Brews',
+    deck: 'Where are the top specialty coffee spots in Bandra West? How Bandra West became the brewing laboratory of Mumbai, showcasing light roasts from Karnataka and Kerala alongside precision manual brewing.',
+    category: 'Coffee Culture',
     readTime: '7 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/assets/images/vegan_healthy_cafe_1791961058683.jpg',
-    imageAlt: 'Vibrant plant-based brunch spread with berry smoothie bowl, sourdough avocado toast with microgreens, and a fresh matcha drink',
-    imageCaption: 'Nutrient-rich mindful dining: fresh smoothie bowls, crushed avocado on sourdough, and ceremonial matcha in Bandra.',
+    heroImage: '/assets/images/specialty_coffee_pour_over_1791961054661.webp',
+    imageAlt: 'Barista pouring hot water over fresh artisanal ground coffee in a V60 dripper at a specialty coffee spot in Bandra West',
+    imageCaption: 'Precision extraction: single-origin Indian Arabica brewed via manual V60 pour-over on a timber coffee bar.',
     keyTakeaways: [
-      'Bandra is Mumbai’s capital for vegan, keto, and gluten-free dining alternatives.',
-      'Most modern cafes offer house-made almond, oat, or coconut milk for specialty coffee beverages.',
-      'Farm-to-table kitchens source seasonal organic vegetables from surrounding Maharashtra farming cooperatives.',
-      'Check menu markings for refined-sugar-free desserts made with dates and jaggery.'
+      'Bandra roasters champion single-estate beans from Chikmagalur, Araku Valley, and Wayanad.',
+      'Manual brew methods like V60 and AeroPress highlight delicate floral and fruity notes that milk drinks mask.',
+      'Ask the barista for roast dates; beans rested between 7 and 21 days deliver optimum sweetness.',
+      'Cold brews and tonic espressos provide crisp refreshment during warm coastal afternoons.'
     ],
     fieldSummary: {
-      focusArea: 'Waroda Road, Perry Cross Road & Pali Naka',
-      budgetOrTime: '₹350 – ₹600 per person',
-      signatures: 'Smoothie bowls, almond milk lattes, grain salads, raw cacao bars',
-      localTip: 'Ask baristas which plant milk pairs best with your specific coffee roast'
+      focusArea: 'Pali Naka, Chapel Road & Chuim Village',
+      budgetOrTime: '₹180 – ₹320 for manual brews (estimated)',
+      signatures: 'V60 pour-over, nitro cold brew, espresso tonic',
+      localTip: 'Try light-roast washed beans black before adding sweetener'
     },
     qaSections: [
       {
-        question: 'Can I find dairy-free milk alternatives at specialty cafes in Bandra West?',
-        directAnswer: 'Yes, almost every specialty café in Bandra West stocks oat, almond, and soy milk alternatives.',
-        supportingDetails: 'Many roasters work directly with barista-edition oat milk to ensure silky microfoam that pours clean latte art without curdling in high-acidity coffee.'
+        question: 'Where can you get the best specialty pour-over coffee in Bandra West?',
+        directAnswer: 'Specialty roasteries around Pali Naka and Chapel Road serve exceptional single-origin pour-overs brewed with beans from Chikmagalur and Araku.',
+        supportingDetails: 'These roasteries feature trained baristas using V60 drippers, precise water temperatures, and micro-lot beans roasted to highlight delicate floral and fruity notes.'
       },
       {
-        question: 'Are there gluten-free and refined-sugar-free dessert options in Bandra?',
-        directAnswer: 'Yes, multiple wellness-focused bakeries and bistros in Bandra cater specifically to gluten-free and sugar-conscious diners.',
-        supportingDetails: 'Look for flourless dark chocolate cakes made with almond flour, raw energy bliss balls sweetened with Medjool dates, and seed crackers baked with cold-pressed coconut oil.'
+        question: 'Which manual brew method should a beginner order at a Bandra roastery?',
+        directAnswer: 'A V60 pour-over or a chilled AeroPress over ice is the best entry point for discovering specialty coffee flavors.',
+        supportingDetails: 'These filtration methods extract a clean, tea-like body that allows subtle terroir notes to shine through cleanly without astringent heaviness.'
       }
     ],
     seoBaseline: {
-      primaryKeyword: 'vegan cafes Bandra West',
-      secondaryKeywords: ['healthy food Bandra', 'gluten free cafes Mumbai'],
-      metaTitle: 'Plant-Based & Healthy Dining in Bandra West | Bandra Bites',
-      metaDescription: 'Find the best vegan, gluten-free, and health-focused cafés in Bandra West, Mumbai. Organic smoothie bowls, plant-milk coffees, and wellness field notes.'
+      primaryKeyword: 'coffee spots in Bandra West',
+      secondaryKeywords: ['best coffee in Bandra West', 'specialty coffee Bandra'],
+      metaTitle: 'Coffee Spots in Bandra West: Best Specialty Roasters',
+      metaDescription: 'Discover third-wave coffee spots in Bandra West, Mumbai. Experience manual pour-overs, single-origin roasts, and espresso bars crafted by master baristas.'
     },
     relatedArticleRoutes: [
-      '/brunch-near-carter-road',
-      '/specialty-coffee-bandra-west',
-      '/pali-hill-cafes-guide'
+      '/cafes-for-studying-bandra-west',
+      '/desserts-bandra-west',
+      '/brunch-near-carter-road'
     ]
   },
   {
-    id: 'street-food-cafe-crawl',
-    slug: 'street-food-and-cafe-crawl-bandra',
-    route: '/street-food-and-cafe-crawl-bandra',
-    title: 'Bandra Street Food & Café Crawl',
-    headline: 'The Ultimate Street Food & Café Crawl: Pairing Spicy Pav Breads with Cold Brews',
-    deck: 'How to design a walking food tour connecting iconic roadside sandwich stalls, vada pav corners, and third-wave micro-roasteries in one afternoon.',
-    category: 'Food Crawls & Walks',
+    id: 'street-food',
+    slug: 'street-food-bandra-west',
+    route: '/street-food-bandra-west',
+    title: 'Street Food in Bandra West',
+    headline: 'Street Food in Bandra West: Legendary Vada Pav, Frankie Stalls & Quick Bites',
+    deck: 'What are the most iconic street food spots in Bandra West? From piping hot vada pav on Hill Road to buttery toasted vegetable sandwiches and savory frankies near Bandra Station, here is your essential street food guide.',
+    category: 'Street Food & Walks',
     readTime: '8 min read',
     publishDate: 'Autumn 2026',
-    heroImage: '/assets/images/bandra_street_food_crawl_1791961058830.jpg',
-    imageAlt: 'Bandra street food and cafe crawl table with freshly toasted spiced sandwich, cutting chai in glass, and cold brew coffee',
+    heroImage: '/assets/images/bandra_street_food_crawl_1791961058830.webp',
+    imageAlt: 'Crisp Mumbai vada pav with spicy garlic chutney and hot toasted sandwich served on a street food counter in Bandra West',
     imageCaption: 'The ultimate Bandra crossover: spiced street sandwich with green chutney paired with single-estate cold brew on an outdoor bench.',
     keyTakeaways: [
       'Bandra’s greatest culinary thrill is contrasting fiery street snacks with cold specialty coffees.',
@@ -489,26 +293,222 @@ export const ARTICLES: Article[] = [
     },
     qaSections: [
       {
-        question: 'How do I plan a self-guided street food and café walk in Bandra West?',
-        directAnswer: 'Start at Bandra Station (West), walk down Hill Road for savory snacks, weave through Ranwar Village for coffee, and end at Carter Road for dessert.',
-        supportingDetails: 'This 2.5-kilometre walking route allows you to alternate between hot street eats like sandwiches and patties and air-conditioned or shaded specialty coffee stops.'
+        question: 'Where can you find the best street food near Hill Road in Bandra West?',
+        directAnswer: 'The bustling street stalls along Hill Road and near Bandra Station (West) serve the area’s most renowned vada pav, frankies, and toasties.',
+        supportingDetails: 'Generations of shoppers and college students stop here for freshly fried batata vadas tucked into soft pav, spiced paneer wraps, and multi-layered cheese sandwiches.'
       },
       {
-        question: 'What is the best way to pace a food crawl in Bandra without getting too full?',
-        directAnswer: 'Order single items to share among friends and schedule a 20-minute heritage village walk between every two food stops.',
-        supportingDetails: 'Walking through the tree-lined pedestrian lanes of Ranwar and Chapel Road aids digestion and gives you time to appreciate the street murals and Portuguese architecture.'
+        question: 'How much does a typical street food crawl cost in Bandra West?',
+        directAnswer: 'A hearty street food crawl in Bandra West costs approximately ₹100 to ₹200 per person for three to four distinct snacks.',
+        supportingDetails: 'With vada pav averaging ₹20 to ₹30, frankies at ₹60 to ₹90, and cutting chai at ₹15, street eats remain Bandra’s most satisfying budget culinary experience.'
       }
     ],
     seoBaseline: {
-      primaryKeyword: 'Bandra street food crawl',
-      secondaryKeywords: ['food walk Bandra West', 'street food cafes Mumbai'],
-      metaTitle: 'Bandra Street Food & Café Crawl — Walking Tour Guide | Bandra Bites',
-      metaDescription: 'Step-by-step walking food crawl in Bandra West, Mumbai. Learn how to pair spicy local street eats like vada pav and toasties with specialty iced coffees.'
+      primaryKeyword: 'street food in Bandra West',
+      secondaryKeywords: ['best street food in Bandra', 'Bandra street food guide'],
+      metaTitle: 'Street Food in Bandra West: Top Vada Pav & Snack Spots',
+      metaDescription: 'Taste the most delicious street food in Bandra West, Mumbai. From legendary spicy vada pav and butter toasties to cooling cutting chai on walking food trails.'
     },
     relatedArticleRoutes: [
       '/budget-cafes-bandra-west',
-      '/irani-cafes-bandra-heritage',
-      '/late-night-cafes-bandra-west'
+      '/bakeries-bun-maska-bandra-west',
+      '/food-near-hill-road-bandra'
+    ]
+  },
+  {
+    id: 'breakfast-places',
+    slug: 'breakfast-places-bandra-west',
+    route: '/breakfast-places-bandra-west',
+    title: 'Breakfast Places in Bandra West',
+    headline: 'Breakfast Places in Bandra West: Sunny Coastal Mornings & Early Bites',
+    deck: 'Where are the best breakfast places in Bandra West for early risers? Whether you crave fluffy sourdough scrambled eggs, South Indian dosas, or fresh bakery croissants, start your morning right with these top breakfast spots.',
+    category: 'Morning Dining',
+    readTime: '6 min read',
+    publishDate: 'Autumn 2026',
+    heroImage: '/assets/images/late_night_bandra_chai_1791961058044.webp',
+    imageAlt: 'Sunlit morning breakfast table in Bandra West with eggs, buttered toast, hot tea, and fresh fruit bowl',
+    imageCaption: 'The morning breakfast charm: wholesome plates, steaming hot tea, and fresh coastal sunlight in Bandra West.',
+    keyTakeaways: [
+      'Early breakfast spots open between 7:00 AM and 8:00 AM, perfect for runners and cyclists.',
+      'Enjoy calm outdoor verandas before midday temperatures and vehicle traffic pick up.',
+      'Pair South Indian morning filter coffee with fluffy steamed idlis along Hill Road corridors.',
+      'Many seaside breakfast decks provide nutritious gluten-free and vegan egg substitutes.'
+    ],
+    fieldSummary: {
+      focusArea: 'Carter Road, Bandstand & St. Andrew’s Road',
+      budgetOrTime: '7:30 AM – 10:00 AM (Early Breakfast Window)',
+      signatures: 'Eggs Florentine, filter coffee, masala omelette, fruit bowls',
+      localTip: 'Arrive before 8:45 AM on weekends to secure outdoor tables'
+    },
+    qaSections: [
+      {
+        question: 'What time do breakfast places open in Bandra West?',
+        directAnswer: 'Most traditional breakfast spots and bakeries open between 7:00 AM and 8:00 AM, while modern breakfast cafés open around 8:30 AM.',
+        supportingDetails: 'Early runners and dog-walkers along Carter Road and Bandstand take advantage of the 7:30 AM to 9:00 AM window when outdoor patio tables are peaceful and queues have not yet formed.'
+      },
+      {
+        question: 'Where can you enjoy an outdoor breakfast in Bandra West?',
+        directAnswer: 'Cafés along Carter Road and open courtyards around Ranwar Village offer sunny, shaded outdoor seating for morning breakfast.',
+        supportingDetails: 'Enjoying sourdough toasts, fresh juices, and warm cutting chai amidst gentle Arabian Sea breezes makes Bandra’s open verandas a quintessential morning ritual.'
+      }
+    ],
+    seoBaseline: {
+      primaryKeyword: 'breakfast places in Bandra West',
+      secondaryKeywords: ['best breakfast in Bandra', 'morning breakfast Bandra West'],
+      metaTitle: 'Breakfast Places in Bandra West: Best Morning Spots',
+      metaDescription: 'Kickstart your day with the best breakfast places in Bandra West, Mumbai. Find sunny coastal verandas, fluffy eggs, South Indian dosas, and morning chai.'
+    },
+    relatedArticleRoutes: [
+      '/brunch-near-carter-road',
+      '/coffee-spots-bandra-west',
+      '/bakeries-bun-maska-bandra-west'
+    ]
+  },
+  {
+    id: 'bakeries-bun-maska',
+    slug: 'bakeries-bun-maska-bandra-west',
+    route: '/bakeries-bun-maska-bandra-west',
+    title: 'Bakeries & Bun Maska in Bandra West',
+    headline: 'Bakeries & Bun Maska in Bandra West: Historic Irani Cafés & Fresh Bakes',
+    deck: 'Where can you experience vintage bun maska and heritage bakeries in Bandra West? Step into beloved Irani cafés and neighborhood ovens where hot cardamom chai, warm buttered buns, and golden mawa cakes preserve old Bombay traditions.',
+    category: 'Heritage & Culture',
+    readTime: '6 min read',
+    publishDate: 'Autumn 2026',
+    heroImage: '/assets/images/irani_cafe_heritage_1791961055938.webp',
+    imageAlt: 'Traditional fresh bun maska sliced open with generous butter alongside steaming cutting chai at an Irani bakery in Bandra West',
+    imageCaption: 'A snapshot of Bombay history: vintage glass jars of fresh mawa cakes and morning tea service on weathered marble.',
+    keyTakeaways: [
+      'Irani cafés introduced Mumbai to casual communal dining and pocket-friendly tea culture over a century ago.',
+      'Always dip warm, buttered bun maska into sweet cardamom tea for the authentic experience.',
+      'Traditional glass vitrines display mawa cakes, brun maska, and ginger biscuits baked daily.',
+      'Cash denominations under ₹100 or UPI are both widely accepted at older counter registers.'
+    ],
+    fieldSummary: {
+      focusArea: 'Hill Road, Station Approach & Bazaar Road',
+      budgetOrTime: '7:00 AM – 9:00 AM for fresh oven bakes',
+      signatures: 'Bun maska, Irani chai, mawa cake, vegetable puff',
+      localTip: 'Order brun pav if you prefer a crackly crust over soft buns'
+    },
+    qaSections: [
+      {
+        question: 'What is the traditional way to eat bun maska in an Irani café?',
+        directAnswer: 'The traditional custom is to dip the warm, buttered bun directly into your hot cup of strong, sweet Irani chai.',
+        supportingDetails: 'The hot tea softens the sweet bun and melts the salted butter into the crumb, creating the iconic sweet-and-savory contrast beloved across Mumbai for generations.'
+      },
+      {
+        question: 'Why are historic Irani cafes culturally significant in Bandra West?',
+        directAnswer: 'Irani cafés served as early secular community hubs where people of all social classes, professions, and faiths mingled equally over affordable tea.',
+        supportingDetails: 'Their architectural heritage—wooden mezzanine railings, marble tabletops, and bentwood chairs—remains a living link to Mumbai’s early 20th-century urban history.'
+      }
+    ],
+    seoBaseline: {
+      primaryKeyword: 'bakeries and bun maska in Bandra West',
+      secondaryKeywords: ['bun maska Bandra West', 'Irani bakeries Bandra'],
+      metaTitle: 'Bakeries & Bun Maska in Bandra West: Irani Heritage',
+      metaDescription: 'Relish traditional bun maska, mawa cakes, and vintage Irani tea in Bandra West, Mumbai. A heritage guide to old-world bakeries and timeless morning snacks.'
+    },
+    relatedArticleRoutes: [
+      '/budget-cafes-bandra-west',
+      '/breakfast-places-bandra-west',
+      '/street-food-bandra-west'
+    ]
+  },
+  {
+    id: 'food-near-hill-road',
+    slug: 'food-near-hill-road-bandra',
+    route: '/food-near-hill-road-bandra',
+    title: 'Food Near Hill Road, Bandra',
+    headline: 'Food Near Hill Road, Bandra: Best Cafés, Quick Bites & Hidden Bakeries',
+    deck: 'Looking for the best food near Hill Road, Bandra? Beyond its famous shopping stalls lies an extraordinary food trail of heritage bakeries, modern alleyway cafés, spicy frankie stalls, and tranquil garden courtyards.',
+    category: 'Neighbourhood Spotlight',
+    readTime: '7 min read',
+    publishDate: 'Autumn 2026',
+    heroImage: '/assets/images/pali_hill_bistro_1791961057763.webp',
+    imageAlt: 'Bustling café outdoor veranda near Hill Road Bandra West surrounded by flowering plants and lively neighborhood diners',
+    imageCaption: 'Charming respite near Hill Road: shaded café patios offering cool beverages and hot bakes just moments away from the bustling shopping strip.',
+    keyTakeaways: [
+      'Hill Road combines busy commercial shopping corridors with serene Portuguese gaothan side lanes.',
+      'Explore quiet side streets off Hill Road like Waroda and St. John for charming independent coffee stops.',
+      'Legendary takeaway counters provide hot chicken and vegetable patties for under ₹60.',
+      'Early afternoon visits allow you to beat the evening retail rush and find immediate seating.'
+    ],
+    fieldSummary: {
+      focusArea: 'Hill Road, St. Joseph Convent lane & Waroda Road',
+      budgetOrTime: '11:00 AM – 4:00 PM for relaxed seating',
+      signatures: 'Vegetable patties, espresso tonics, grilled sandwiches',
+      localTip: 'Slip into side lanes for shaded seating away from high-street vehicle traffic'
+    },
+    qaSections: [
+      {
+        question: 'What are the best food options within walking distance of Hill Road, Bandra?',
+        directAnswer: 'Hill Road offers a vibrant mix of legacy bakeries, famous street food stalls, and tucked-away specialty coffee shops in adjacent gaothan lanes.',
+        supportingDetails: 'Visitors can easily grab vegetable patties from century-old counters, indulge in spicy frankies, or slip into peaceful side-street cafés for cold brew.'
+      },
+      {
+        question: 'When is the best time to explore food near Hill Road without heavy crowds?',
+        directAnswer: 'Weekday mornings from 10:00 AM to 1:00 PM offer the most relaxed dining and snacking experience near Hill Road.',
+        supportingDetails: 'During afternoon hours before the evening shopping rush, tables at popular cafés are readily open and street food counters prepare fresh hot batches without long queues.'
+      }
+    ],
+    seoBaseline: {
+      primaryKeyword: 'food near Hill Road Bandra',
+      secondaryKeywords: ['places to eat near Hill Road Bandra', 'Hill Road restaurants Bandra'],
+      metaTitle: 'Food Near Hill Road Bandra: Top Cafés, Snacks & Bites',
+      metaDescription: 'Explore the vibrant food scene near Hill Road, Bandra West. Discover historic bakery counters, quick street eats, and cozy cafés tucked behind shopping lanes.'
+    },
+    relatedArticleRoutes: [
+      '/street-food-bandra-west',
+      '/coffee-spots-bandra-west',
+      '/bakeries-bun-maska-bandra-west'
+    ]
+  },
+  {
+    id: 'vegetarian-food',
+    slug: 'vegetarian-food-bandra-west',
+    route: '/vegetarian-food-bandra-west',
+    title: 'Vegetarian Food in Bandra West',
+    headline: 'Vegetarian Food in Bandra West: Plant-Based Cafés, Healthy Bowls & Pure Veg Dining',
+    deck: 'Where can you find the best vegetarian food in Bandra West? Discover wholesome plant-based cafés, pure vegetarian dining rooms, vibrant grain bowls, and dairy-free bakes across Pali Naka and Waroda Road.',
+    category: 'Vegetarian & Wellness',
+    readTime: '7 min read',
+    publishDate: 'Autumn 2026',
+    heroImage: '/assets/images/vegan_healthy_cafe_1791961058683.webp',
+    imageAlt: 'Colorful vegetarian dining spread with avocado tartine, grain bowl, roasted vegetables, and fresh juice in Bandra West',
+    imageCaption: 'Nutritious vegetarian dining in Bandra West: fresh avocado toast, vibrant grain salads, and organic cold-pressed juices.',
+    keyTakeaways: [
+      'Bandra is Mumbai’s capital for creative vegetarian, vegan, and gluten-free dining alternatives.',
+      'Most modern cafes offer house-made almond, oat, or coconut milk for specialty coffee beverages.',
+      'Farm-to-table kitchens source seasonal organic vegetables from surrounding Maharashtra farming cooperatives.',
+      'Check menu markings for refined-sugar-free desserts made with dates and jaggery.'
+    ],
+    fieldSummary: {
+      focusArea: 'Waroda Road, Perry Cross Road & Pali Naka',
+      budgetOrTime: '₹300 – ₹550 per person (estimated)',
+      signatures: 'Smoothie bowls, almond milk lattes, grain salads, raw cacao bars',
+      localTip: 'Ask baristas which plant milk pairs best with your specific coffee roast'
+    },
+    qaSections: [
+      {
+        question: 'Are there good pure vegetarian cafés and restaurants in Bandra West?',
+        directAnswer: 'Yes, Bandra West features a rich selection of dedicated vegetarian eateries, from traditional dining halls to modern plant-based cafés.',
+        supportingDetails: 'Health-conscious bistros in Pali Naka and Waroda Road specialize in creative vegetarian fare like sourdough avocado toast, almond milk smoothies, and gluten-free bakes.'
+      },
+      {
+        question: 'Do vegetarian cafés in Bandra West cater to vegan and gluten-free diets?',
+        directAnswer: 'Virtually all contemporary vegetarian cafés in Bandra West provide extensive vegan, dairy-free, and gluten-free menu options.',
+        supportingDetails: 'With house-made oat and almond milks, cauliflower crusts, and organic farm-to-table vegetables, diners with dietary restrictions enjoy full culinary variety.'
+      }
+    ],
+    seoBaseline: {
+      primaryKeyword: 'vegetarian food in Bandra West',
+      secondaryKeywords: ['pure veg restaurants in Bandra', 'best vegetarian food Bandra'],
+      metaTitle: 'Vegetarian Food in Bandra West: Best Veg Cafés & Eats',
+      metaDescription: 'Discover pure vegetarian food in Bandra West, Mumbai. From organic smoothie bowls and avocado toasts to flavorful thalis and wholesome plant-based cafes.'
+    },
+    relatedArticleRoutes: [
+      '/brunch-near-carter-road',
+      '/coffee-spots-bandra-west',
+      '/cafes-for-studying-bandra-west'
     ]
   }
 ];
@@ -550,7 +550,7 @@ export const DISCOVERY_CATEGORIES: DiscoveryCategory[] = [
     subtitle: 'Pour-overs, aero-press & single estates',
     tagline: 'Third-Wave Coffee',
     description: 'Precision brewing and light-roast single origins harvested in Chikmagalur and Wayanad, brewed with artisanal care.',
-    associatedRoute: '/specialty-coffee-bandra-west',
+    associatedRoute: '/coffee-spots-bandra-west',
     iconName: 'Compass',
     featuredBadge: 'Coffee Craft'
   }

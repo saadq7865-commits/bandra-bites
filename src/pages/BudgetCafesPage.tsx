@@ -71,8 +71,8 @@ export function BudgetCafesPage() {
                 guide to bakeries and desserts in Bandra West
               </Link>
               , or compare value with single-origin beans in our{' '}
-              <Link href="/specialty-coffee-bandra-west" className="font-semibold text-[#E76F51] underline hover:text-[#d65f42]">
-                specialty coffee and roasters guide for Bandra West
+              <Link href="/coffee-spots-bandra-west" className="font-semibold text-[#E76F51] underline hover:text-[#d65f42]">
+                coffee spots and roasters guide for Bandra West
               </Link>
               .
             </p>

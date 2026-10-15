@@ -73,8 +73,8 @@ export function CarterRoadBrunchPage() {
                 guide to artisanal desserts and pastry shops in Bandra West
               </Link>
               , or discover specialty single-origin roasters in our{' '}
-              <Link href="/specialty-coffee-bandra-west" className="font-semibold text-[#E76F51] underline hover:text-[#d65f42]">
-                specialty coffee and pour-over guide for Bandra West
+              <Link href="/coffee-spots-bandra-west" className="font-semibold text-[#E76F51] underline hover:text-[#d65f42]">
+                coffee spots and pour-over guide for Bandra West
               </Link>
               .
             </p>

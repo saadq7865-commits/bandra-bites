@@ -180,8 +180,8 @@ export function ArticleView({ article }: ArticleViewProps) {
                   guide to bakeries and desserts in Bandra West
                 </Link>
                 , or compare value with single-origin beans in our{' '}
-                <Link href="/specialty-coffee-bandra-west" className="font-semibold text-[#E76F51] underline hover:text-[#d65f42]">
-                  specialty coffee and roasters guide for Bandra West
+                <Link href="/coffee-spots-bandra-west" className="font-semibold text-[#E76F51] underline hover:text-[#d65f42]">
+                  specialty coffee spots and roasters guide for Bandra West
                 </Link>
                 .
               </p>
@@ -254,8 +254,8 @@ export function ArticleView({ article }: ArticleViewProps) {
                   guide to artisanal desserts and pastry shops in Bandra West
                 </Link>
                 , or discover specialty single-origin roasters in our{' '}
-                <Link href="/specialty-coffee-bandra-west" className="font-semibold text-[#E76F51] underline hover:text-[#d65f42]">
-                  specialty coffee and pour-over guide for Bandra West
+                <Link href="/coffee-spots-bandra-west" className="font-semibold text-[#E76F51] underline hover:text-[#d65f42]">
+                  specialty coffee spots and pour-over guide for Bandra West
                 </Link>
                 .
               </p>
@@ -473,9 +473,11 @@ export function ArticleView({ article }: ArticleViewProps) {
               <span>·</span>
               <Link href="/desserts-bandra-west" className="hover:text-[#E76F51] underline">Desserts</Link>
               <span>·</span>
-              <Link href="/specialty-coffee-bandra-west" className="hover:text-[#E76F51] underline">Coffee</Link>
+              <Link href="/coffee-spots-bandra-west" className="hover:text-[#E76F51] underline">Coffee Spots</Link>
               <span>·</span>
-              <Link href="/pali-hill-cafes-guide" className="hover:text-[#E76F51] underline">Pali Hill</Link>
+              <Link href="/food-near-hill-road-bandra" className="hover:text-[#E76F51] underline">Hill Road</Link>
+              <span>·</span>
+              <Link href="/bakeries-bun-maska-bandra-west" className="hover:text-[#E76F51] underline">Bakeries</Link>
             </div>
           </div>
         </footer>

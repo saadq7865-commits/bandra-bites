@@ -74,7 +74,14 @@ export function HomePage() {
                   >
                     coastal morning brunch spots near Carter Road guide
                   </Link>
-                  , or discover sweet stops in our{' '}
+                  , discover roasteries in our{' '}
+                  <Link
+                    href="/coffee-spots-bandra-west"
+                    className="font-semibold text-[#E76F51] underline hover:text-[#d65f42]"
+                  >
+                    specialty coffee spots in Bandra West
+                  </Link>
+                  , or find sweet treats in our{' '}
                   <Link
                     href="/desserts-bandra-west"
                     className="font-semibold text-[#E76F51] underline hover:text-[#d65f42]"
@@ -124,7 +131,7 @@ export function HomePage() {
             <div className="lg:col-span-5 flex flex-col">
               <div className="relative rounded-2xl overflow-hidden shadow-md border border-[#F6BD9B]/50 bg-stone-100 h-full min-h-[340px] lg:min-h-[420px]">
                 <img
-                  src="/assets/images/hero_bandra_cafe_1791895097942.jpg"
+                  src="/assets/images/hero_bandra_cafe_1791895097942.webp"
                   alt="Sunlit artisanal café interior in Bandra West Mumbai with timber tables, pour-over coffee carafe, fresh butter croissants, and lush green window views"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
